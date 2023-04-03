@@ -34,7 +34,7 @@ jobs:
           api_build_command: 'npm install --force'
         env:
           NPM_CONFIG_LEGACY_PEER_DEPS: true
-          CUSTOM_BUILD_COMMAND=npm ci && npm run 
+          
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
